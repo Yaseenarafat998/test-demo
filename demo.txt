@@ -1,3 +1,12 @@
-a=10
-b=20
-print(a+b)
+At first we move to the required folder or file with the help of cd folder name
+Then step 2 we move to specific folder with the help of cd 
+Then we do git init it will initialize empty git repo in the folder
+It is a hidden file we can view it by checking view hidden file
+git status will give us all the information of the folders or file 
+git add .(all files) will be used to add the file which needs to be commited
+if we make any changes and check status again it will show the made changes.
+then use git commit -m "text made changes" all the files will be commited.
+Then again we can check the status it will show nothing to commit, working tree clean
+Then we do git remote and origin and https of git both are connected
+then we can push it using the git push -u origin name.
+the file will be pushed.
