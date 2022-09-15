@@ -17,3 +17,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Yaseenarafat998/name.git
 git push -u origin main
+when creating a branch we can
+git checkout -b branch name 
+then we need to add , commit, and push and refresh we will find the new branch
