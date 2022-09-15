@@ -10,3 +10,10 @@ Then again we can check the status it will show nothing to commit, working tree 
 Then we do git remote and origin and https of git both are connected
 then we can push it using the git push -u origin name.
 the file will be pushed.
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Yaseenarafat998/name.git
+git push -u origin main
